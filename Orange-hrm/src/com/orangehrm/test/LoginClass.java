@@ -20,6 +20,7 @@ public class LoginClass extends BaseSelenium {
 		//password.sendKeys("ankur");
 		//WebElement login=DR.findElement(By.id("btnLogin"));
 		//login.click();
+    //Test Git
     	LoginPage LP=new LoginPage();
     	LP.loginTest();
 		WebElement welcomelink=WebDriverFactory.DR.findElement(By.id("welcome"));
